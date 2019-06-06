@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 415.1 444.6">
+      <defs>
+        <linearGradient id="blue-with-white" gradientTransform="rotate(90)" x1="0" x2="100%" y1="0" y2="0">
+          <stop offset="5%"  stop-color="white" />
+          <stop offset="5%" stop-color="#2fa3b7" />
+        </linearGradient>
+      </defs>
+      <defs>
+        <style>
+            @import url("https://fonts.googleapis.com/css?family=Palanquin+Dark");
+        </style>
+    </defs>
+  <defs>
+    <style>
+     
+      .outer-circle {
+          fill:#2fa3b7;
+          }
+      .fire-stroke,
+      .outer-circle,.lat-long-stroke {
+          stroke:#000;
+          }
+
+           .blue-mountain {
+            fill: url("#blue-with-white");
+           }
+      
+      .fire-stroke,
+      .outer-circle,.middle-circle,
+      .lat-long-stroke,
+      .inner-circle {
+          stroke-miterlimit:10;
+        }
+      .fire-stroke,
+      .outer-circle {
+          stroke-width:6px;
+        }
+      .middle-circle,
+      .fire-fill {
+        fill:#933;
+      }
+      .middle-circle,.inner-circle, .blue-mountain {
+        stroke:#010006;
+      }
+      .middle-circle,.lat-long-stroke,.inner-circle {
+        stroke-width:5px;
+      }
+      
+      .inner-circle {
+        fill:#c7b299;
+      }
+      
+      .a3acccf5-71d8-4ce9-af8f-8f202fde8d03,
+      .b8d54b31-a7b6-4446-a311-b474553a46be
+        {
+          fill:#f2f2f2;
+        }
+      .a3acccf5-71d8-4ce9-af8f-8f202fde8d03 {
+        font-size:40.42px;font-family:Krungthep;
+      }
+      .fire-stroke,.a395cbd4-773e-4a51-80fa-902dc730236b,
+      .lat-long-stroke, #arc-text-path {
+        fill:none;
+      }
+      #text-path-attr {
+        text-anchor: middle;
+        font-size: 35px;
+        fill: white;
+        font-family: 'Palanquin Dark', sans-serif;
+      }
+    </style>
+  </defs>
+  <title>
+    badge
+  </title>
+    <g id="group-layer" data-name="Layer 4">
+      <ellipse id="outer-circle" class="outer-circle" cx="213" cy="241.6" rx="199" ry="200"/>
+      <ellipse id="middle-circle" class="middle-circle" cx="210.2" cy="250.7" rx="127.4" ry="128"/>
+      <ellipse id="inner-circle" class="inner-circle" cx="212.2" cy="250.7" rx="104.4" ry="104.9"/>
+      <path id="blue-mountain" class="blue-mountain" d="M162.5,282.1,191,223l10,10.6a.7.7,0,0,0,.6.3,1,1,0,0,0,.9-.6l14.1-38.8,10.7,35.8a1,1,0,0,0,.9.7.9.9,0,0,0,.7-.3l7.9-7.7,26.8,59.3Z"/>
+      <path id="arc-text-path" d="M66,217 A 150,150 0 0,1 356,214"/>
+      <line id="top-line" class="lat-long-stroke" x1="166.1" y1="170.1" x2="257.2" y2="168.4"/>
+      <line id="bottom-line" class="lat-long-stroke" x1="192.6" y1="181.9" x2="227" y2="181.6"/>
+      <polygon id="fire-fill" class="fire-fill" points="200.3 297.3 207.3 305.9 209.8 291.5 212.2 302.2 220 293.1 218 310.1 227.4 302.6 217.1 319.1 205.7 318.7 196.2 305.9 202.8 309.7 200.3 297.3"/>
+      <line class="fire-stroke" x1="238.3" y1="338.7" x2="186.7" y2="304"/>
+      <line class="fire-stroke" x1="236.2" y1="299.8" x2="189.7" y2="341.2"/>
+      <text>
+        <textPath id="text-path-attr" href="#arc-text-path" startOffset="50%">
+        </textPath>
+      </text>
+    </g>
+</svg>
